@@ -1,0 +1,43 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+p {
+  font-family: strasua;
+}
+h1 {
+  font-family: strasua;
+}
+
+.ResumeIcon{
+  height: 400px;
+  width: 550px;
+  margin-top: 60px;
+}
+
+.PhotoIcon{
+  height: 400px;
+  width: 430px;
+  margin-top: 60px;
+}
+
+.DanceIcon{
+  height: 400px;
+  width: 400px;
+  margin-top: 60px;
+}
